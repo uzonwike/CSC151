@@ -1,14 +1,14 @@
 #lang racket
 (require gigls/unsafe)
 ;;; File:
-;;;   utils.rkt
+;;;   git-examples/utils.rkt
 ;;; Author:
 ;;;   Your Name Here
 ;;; Summary:
 ;;;   A few sample utilities, created as part of a lab on GitHub.
 
 ;;; Procedure:
-;;;   funs
+;;;   one-to
 ;;; Parameters:
 ;;;   n, a positive integer
 ;;; Purpose:
@@ -21,6 +21,6 @@
 ;;;   (length list-of-nums) == n
 ;;;   (list-ref list-of-nums i) = i+1
 ;;;     for all i, 0 <= i < n.
-(define funs
+(define one-two
   (lambda (n)
     (cdr (iota (+ n 1)))))
